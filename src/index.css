@@ -1,0 +1,17 @@
+li{ width: auto;
+    text-align: center;
+
+    border-color: black;
+    border-width: 1px;
+    outline:auto;
+
+}
+
+ul{list-style: none;
+    column-count:3;
+   }
+
+body{display: grid;
+    grid-template-columns: 75% 25%}
+
+section{grid-column-start: 2;}
